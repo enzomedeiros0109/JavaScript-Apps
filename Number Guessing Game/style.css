@@ -1,0 +1,41 @@
+body {
+   background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+div{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#title{
+   font-size: 3em;
+}
+
+#input{
+   padding: 6px;
+   border: 1px solid;
+   border-radius: 10px;
+}
+
+#input:placeholder-shown{
+   text-align: center;
+}
+
+#submitButton{
+   color: black;
+   background-color: white;
+   border: 1px solid;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+#submitButton:hover{
+   background-color: rgb(224, 208, 144);
+}
+

@@ -1,0 +1,44 @@
+body{
+   background-color: antiquewhite;
+   font-family: Arial, Helvetica, sans-serif;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+#inputContainer{
+   font-size: 1.5em;
+}
+
+#length{
+   text-align: center;
+   font-size: 1em;
+   width: 100px;
+   border-radius: 5px;
+   border: 1px solid;
+}
+
+#optionsContainer{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+#generate{
+   margin-top: 20px;
+   padding: 10px;
+   font-size: 1.5em;
+   border-radius: 20px;
+   border: 1px solid;
+   box-shadow: 3px 3px;
+}
+
+#result{
+   margin-top: 25px;
+   font-size: 1.5em;
+   font-weight: bolder;
+}
+

@@ -1,0 +1,13 @@
+body{
+   background-color: blanchedalmond;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#container{
+
+}
+
